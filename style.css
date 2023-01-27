@@ -1,0 +1,110 @@
+@font-face{
+    font-family:'Prata-regular' ;
+    src: url('/Prata/Prata-Regular.ttf');
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('/Montserrat/Montserrat-VariableFont_wght.ttf')
+}
+body {
+
+    margin:0;
+    font-family: 'Montserrat';
+}
+.main-section {
+    padding: 20px 20px 20px 20px;
+}
+.image-container-tarquinia{ 
+    height:500px;
+    background-image: url(https://civitavecchia.portmobility.it/sites/default/files/tarquinia_10_cose_da_vedere_cover_0.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.image-container-bagno{
+    height:500px;
+    background-image: url(https://civitavecchia.portmobility.it/sites/default/files/civita_di_bagnoregio.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.image-container-piramide{
+    height:500px;
+    background-image: url(https://www.eventidellatuscia.it/wp-content/uploads/2017/04/piramide.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.image-container-fageta{
+    height:500px;
+    background-image: url(https://www.tusciatimes.eu/wp-content/uploads/2018/07/il-pozzo-del-diavolo-faggeta.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.image-container-bagnaia{
+    height:500px;
+    background-image: url(https://www.mytuscia.com/media/catalog/product/v/i/villa-lante-giardini.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.image-container-index {
+    height: 500px;
+    background-image: url(paesaggio.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    font-size: 64px;
+    font-weight:400;
+    font-family: 'Prata-Regular';
+    margin-bottom: 0;
+    
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family:'Prata-Regular';
+    margin-bottom: 0;
+}
+a {
+    font-weight: 600;
+    font-style: italic;
+
+}
+h6{
+    padding:22px;
+    margin-bottom:0px;
+    margin-top:56px;
+    color:white;
+    border-radius:6px;
+    background: linear-gradient(270deg, #004000, #1a688d);
+}
+
+ a:visited{
+    text-decoration: none;
+    color:#004000;
+    background-color:transparent;
+
+}
+a:hover, a:active{
+    text-decoration: none;
+    color:#1a688d
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top:6px;
+    padding-bottom: 6px;
+    padding-left:22px;
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:16px;
+
+}
